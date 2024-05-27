@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 .hero{
     background: #1F2937;
@@ -65,8 +67,7 @@ button{
 }
 .info_blocks{
     display: flex;
-    margin-left: 20%;
-    margin-left: 15%;
+    justify-content: center;
     height: 500px;
     padding-left: 10%;
 }
@@ -86,10 +87,10 @@ button{
     border-radius: 25px;
 }
 .qoute_card{
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: #E5E7EB;
-    padding-top: 10%;
+    padding-top: 100Px;
 }
 .qoute_text{
     font-style: italic;
@@ -102,4 +103,39 @@ button{
     font-weight: bolder;
     margin-left: 65%;
     font-size: 26px;
+}
+footer{
+    height: 50px;
+    max-width: 100%;
+    background: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.card_section{
+    height: 300px;
+    max-width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.card{
+    height: 150px;
+    width: 70%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.button{
+    border: 3px solid #f9faf8;
+    margin-right: 5px;
+}
+.p_card{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
